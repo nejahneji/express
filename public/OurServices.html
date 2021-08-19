@@ -11,6 +11,15 @@
       crossorigin="anonymous"
     />
     <title>sevices</title>
+    <style>
+      body{background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;}
+.nav{width: 100%;border-bottom: ridge 1px black;align-items: center;}
+.service{margin-left: 45%;margin-top: 50px;}
+select{width: 200px;padding: 2px;align-items: center;}
+  </style>
   </head>
   <body>
     <ul class="nav">
@@ -25,6 +34,13 @@
         </li>
         
       </ul>
-      <h1>our servives </h1>
+      <div class="service">
+        <select name="services" id="">
+          <option>Front-end</option>
+          <option>back-end</option>
+          <option>Full-stack</option>
+          <option>UI design</option>
+        </select>
+      </div>
   </body>
 </html>
